@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Mesmerize Expanded', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191d28;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar-heading{
+    color: #3dc5c1;
+    font-size: 30px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.option select,.buy {
+    background-color: #2f3243;
+    outline: none;
+    border: 0;
+    font-size: 14px; 
+    text-align: center; 
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    position: relative;
+    color: white;
+}
+
+.circle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #3dc5c1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    padding: 5px;
+}
+
+
+.telegram{
+    background-color: #3dc5c1;
+    color: white;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.telegram svg{
+    width: 20px;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.percentage-container{
+    text-align: center;
+}
+
+.percentage{
+    color: #3dc5c1;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.time{
+    color: #7b7e87;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.rate-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rate{
+    color: white;
+    font-weight: 400;
+    font-size: 80px;
+}
+
+#container{
+    width: 100%;
+}
+
+.custom-table {
+    width: 100%;
+}
+
+.header-row {
+    width: 100%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0px 20px;
+}
+
+.custom-row{
+    background-color: #2f3241;
+    color: white;
+    padding: 30px;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+td{
+    padding: 20px;
+}
+
+
+.header-row{
+    font-size: 24px;
+    color: #7b7e87;
+}
+
+.hold{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hold button{
+    border: 2px solid #385f6d;
+    background-color: transparent;
+    color: #385f6d;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.change {
+    width: 50px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    background-color: #191d28;
+    cursor: pointer;
+    background-color: #2f3241;
+}
+
+.change::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3dc5c1;
+}
